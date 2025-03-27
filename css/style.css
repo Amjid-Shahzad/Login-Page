@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: #0e0e0e;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+.nav-logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-menu {
+    display: flex;
+    width: 80%;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px 30;
+}
+
+.nav-3rdbar {
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.nav-3rdbar img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*this is hero Secition*/
+
+.container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #3b3b3b;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: #724cfc 0px 0px 10px;
+    background-color: #3103d4;
+    height: 90%;
+    width: 70%;
+}
+
+.form {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0% 30%;
+    width: 100%;
+    height: 70%;
+}
+
+#name {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px 0;
+    outline: none;
+}
+
+#email {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px 0;
+    outline: none;
+}
+
+#phone {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px 0;
+    outline: none;
+}
+
+#message {
+    width: 100%;
+    height: 85px;
+    border-radius: 5px;
+    border: none;
+    margin: 2px 0;
+    outline: none;
+}
+
+#submit {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
